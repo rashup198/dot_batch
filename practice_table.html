@@ -8,8 +8,10 @@
     <title>Document</title>
 
     <style>
-
-        table , tr,td,th{
+        table,
+        tr,
+        td,
+        th {
             border: 2px solid black;
             border-collapse: collapse;
             text-align: center;
@@ -20,14 +22,22 @@
 <body>
     <table>
 
+        <colgroup>
+
+            <col span="1" style="background-color: aquamarine;">
+            <col span="1" style="background-color: rgb(45, 7, 81);">
+            <col span="1" style="background-color: rgb(213, 125, 10);">
+            <col span="1" style="background-color: rgb(14, 183, 20);">
+        </colgroup>
+
         <tr>
             <td rowspan="2">state of heath</td>
             <td colspan="2">fasting value</td>
-           
+
             <td>after eating</td>
         </tr>
         <tr>
-            
+
             <td>minimum</td>
             <td>maximum</td>
             <td>2hr after eating</td>
