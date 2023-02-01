@@ -1,0 +1,54 @@
+img {
+
+    border: 2px solid rgb(255, 255, 255);
+    height: 20em;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px 3px #2F3C7E;
+
+}
+
+#main {
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+    background-color: #FBEAEB;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+
+
+    min-width: 40vh;
+
+}
+
+.card-text {
+    text-align: left;
+    width: 20%;
+}
+.product
+
+.btn{
+    font-size: 20px;
+    font-weight: bolder;
+    height: 30px;
+    align-items: center;
+    margin-top: 20px;
+    width: 200px;
+    color: rgb(245, 230, 230);
+    background-color: rgb(247, 181, 181);
+    border-radius: 20px;
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 3px 3px 3px rgb(178, 85, 85);
+}
+
+.btn:hover{
+    -webkit-text-stroke-width: 0.7px;
+  -webkit-text-stroke-color: rgb(255, 0, 0);
+ color: rgb(243, 196, 196);
+ box-shadow: none;
+}
