@@ -13,26 +13,12 @@
     height: 700px;
     
     display: grid;
-    
-    /* grid-template-rows: 30px 150px 400px 30px;
-
-    grid-template-columns: 400px;
-    grid-template-areas: 
-    "hd"
-    "side"
-    "main"
-    "ft"; */
+    grid-gap: 10px;
 
 
-    grid-template-columns: 200px 400px;
-    grid-template-rows: 30px 500px 30px;
+    grid-auto-rows: minmax(100px, auto);
+    grid-template-columns: repeat(4, 1fr);
 
-    grid-template-areas: 
-    "hd hd"
-    "side main"
-    "ft ft"
-     ;
-    
 
 }
 .box{
@@ -40,23 +26,6 @@
     border: 2px solid black;
 
 }
-
-#box1{
-    grid-area: hd;
-}
-#box2{
-    grid-area: side;
-}
-#box3{
-    grid-area: main;
-
-}
-#box4{
-    grid-area: ft;
-}
-
-
-
 
     </style>
 </head>
@@ -68,6 +37,15 @@
         <div class="box" id="box2" >Sidebar</div>
         <div class="box" id="box3" >Content</div>
         <div class="box" id="box4" >Footer</div>
+        <div class="box" id="box4" >Footer2</div>
+        <div class="box" id="box1" >Header2</div>
+        <div class="box" id="box2" >Sidebar2</div>
+        <div class="box" id="box3" >Content2</div>
+        <div class="box" id="box4" >Footer</div>
+        <div class="box" id="box4" >Footer2</div>
+        <div class="box" id="box1" >Header2</div>
+        <div class="box" id="box2" >Sidebar2</div>
+        <div class="box" id="box3" >Content2</div>
         
     </div>
 </body>
