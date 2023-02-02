@@ -4,12 +4,17 @@
     background-color: green;
     border: 2px solid black;
     display: flex;
+    
+    animation-name:rashu ;
+    animation-duration: 3s;
+    animation-iteration-count: 4;
+    animation-timing-function: ease-in-out;
 
 }
 
 .box{ 
     height: 150px;
-    width: 150px;
+    width: 200px;
     margin: 20px;
 
     border: 2px solid orange;
@@ -18,7 +23,7 @@
     /* transition-duration: 1s ;
     transition-property:all ; */
     
-    /* transition: transform 1s ease ; */
+    /* transition: transform 1s ease ;
     /* transition: all 2s ease ; */
 
     animation-name:rashu ;
@@ -26,8 +31,14 @@
     animation-iteration-count: 4;
     animation-timing-function: ease-in-out;
 
+
 }
-.box:hover{
-    background-color: brown;
-    transform: rotate(40deg);
+
+@keyframe{
+    from{
+        width:200px
+    }
+    to{
+        width:800px
+    }
 }
